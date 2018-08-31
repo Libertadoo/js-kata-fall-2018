@@ -1,0 +1,52 @@
+.pink {
+  background-color: lightpink;
+  display: block;
+  width: 100%;
+  height: 15%;
+  position: absolute;
+  top: 85%;
+  animation: appear 2s forwards;
+}
+@keyframes appear {
+  0% {
+    transform: translateY(500px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.hide {
+  animation: hide 2s forwards;
+}
+@keyframes hide {
+  to {
+    transform: translateY(500px);
+  }
+}
+p {
+  color: gray;
+  font-size: 30px;
+  padding-left: 40px;
+}
+.accept {
+  padding-left: 5px;
+  padding-bottom: 30px;
+  display: inline;
+}
+.button {
+  background-color: lightblue;
+  display: block;
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  top: 35%;
+  left: 80%;
+  border-width: 3px;
+  border-style: solid;
+  border-color: gray;
+  cursor: pointer;
+}
+
+body {
+  background-color: lightblue;
+}
