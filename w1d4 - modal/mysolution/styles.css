@@ -23,8 +23,19 @@ body {
 
 #modal_window {
   max-width: 80vw;
+  display: block;
+  border: 2px solid black;
+  padding: 20px;
 }
 
 .hidden {
   visibility: hidden;
+}
+
+.link {
+  cursor: pointer;
+}
+
+#closebutton {
+  cursor: pointer;
 }
